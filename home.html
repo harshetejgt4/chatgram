@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Telegram Chat App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="app">
+        <h1>Telegram Chat App</h1>
+        <div id="registration">
+            <input type="text" id="username" placeholder="Enter your username">
+            <button id="register">Register</button>
+        </div>
+        <div id="chat" style="display: none;">
+            <h2>Welcome to the chat, <span id="user_display"></span>!</h2>
+            <div id="messages"></div>
+            <input type="text" id="message" placeholder="Type a message..."><button id="send">Send</button>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
